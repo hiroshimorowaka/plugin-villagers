@@ -1,0 +1,12 @@
+name: teste
+version: '${project.version}'
+main: me.hiroshi.untitled.Untitled
+api-version: '1.21'
+commands:
+  loc:
+    description: "This is a loc command"
+    usage: "/loc <arg>"
+  teste:
+    description: "This is a command"
+    usage: "/teste <arg>"
+    aliases: [cmd, command]
