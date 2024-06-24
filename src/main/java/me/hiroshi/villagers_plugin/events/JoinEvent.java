@@ -7,6 +7,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class join implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        event.setJoinMessage("Olá, seja bem vindo ao servidor!");
+        event.joinMessage("Olá, seja bem vindo ao servidor!");
     }
 }
