@@ -2,8 +2,8 @@ package me.hiroshi.villagers_plugin;
 
 import me.hiroshi.villagers_plugin.commands.Loc;
 import me.hiroshi.villagers_plugin.commands.SetPriceForEveryone;
-import me.hiroshi.villagers_plugin.events.chat;
-import me.hiroshi.villagers_plugin.events.join;
+import me.hiroshi.villagers_plugin.events.ChatEvent;
+import me.hiroshi.villagers_plugin.events.JoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class VillagersPlugin extends JavaPlugin {
@@ -13,10 +13,12 @@ public final class VillagersPlugin extends JavaPlugin {
         // Plugin startup logic
         System.out.println("Plugin Started");
 
-        getServer().getPluginManager().registerEvents(new join(), this);
-        getServer().getPluginManager().registerEvents(new chat(), this);
-        getCommand("loc").setExecutor(new Loc());
-        getCommand("teste").setExecutor(new SetPriceForEveryone());
+        var pm = super.getServer().getPluginManager();
+        pm.registerEvents(new JoinEvent(), this);
+        pm.registerEvents(new ChatEvent(), this);
+
+        super.getCommand("loc").setExecutor(new Loc());
+        super.getCommand("teste").setExecutor(new SetPriceForEveryone());
     }
 
     @Override

@@ -1,6 +1,6 @@
-name: teste
+name: plugin-villagers
 version: '${project.version}'
-main: me.hiroshi.untitled.Untitled
+main: me.hiroshi.villagers_plugin.VillagersPlugin
 api-version: '1.21'
 commands:
   loc:
