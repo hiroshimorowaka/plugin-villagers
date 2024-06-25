@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f06307f-9526-42d7-b093-31aee14eeb6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/VillagerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/events/PlayerInteractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/events/VillagerTransformEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/plugin/plugin_villagers-1.0.jar" beforeDir="false" />
+    <list default="true" id="86ce59bb-e07c-4598-af57-f291f29680b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin_villagers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin_villagers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/MessageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/VillagersPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/VillagersPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/commands/Loc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/commands/Loc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/commands/SetPriceForEveryone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/commands/SetPriceForEveryone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/commands/Loc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hiroshi/villagers_plugin/events/ChatEvent.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,48 +24,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2iIxa2Zpazq9xr87Oun0iej5heb" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2iNKTU5PIWgSRGlTG5kz9aKhzHt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.plugin_villagers [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [site].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers [verify].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plugin_villagers package.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hiroshi/Desktop/mine_plugin/VillagersPlugin&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.plugin_villagers [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="plugin_villagers package" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="plugin_villagers [package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -105,11 +85,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f06307f-9526-42d7-b093-31aee14eeb6c" name="Changes" comment="" />
-      <created>1719191953048</created>
+      <changelist id="86ce59bb-e07c-4598-af57-f291f29680b6" name="Changes" comment="" />
+      <created>1719325602941</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1719191953048</updated>
+      <updated>1719325602941</updated>
     </task>
     <servers />
   </component>

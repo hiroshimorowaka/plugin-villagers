@@ -1,11 +1,8 @@
 name: plugin-villagers
-version: '${project.version}'
+version: '1.0-1.21'
 main: me.hiroshi.villagers_plugin.VillagersPlugin
 api-version: '1.21'
 commands:
-  loc:
-    description: "This is a loc command"
-    usage: "/loc <arg>"
   reputation:
     description: "This is a command"
     permission: villagers.set.discount
