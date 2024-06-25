@@ -4,6 +4,8 @@ import me.hiroshi.villagers_plugin.commands.Loc;
 import me.hiroshi.villagers_plugin.commands.SetPriceForEveryone;
 import me.hiroshi.villagers_plugin.events.ChatEvent;
 import me.hiroshi.villagers_plugin.events.JoinEvent;
+import me.hiroshi.villagers_plugin.events.PlayerInteractHandler;
+import me.hiroshi.villagers_plugin.events.VillagerTransformEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class VillagersPlugin extends JavaPlugin {
@@ -16,9 +18,11 @@ public final class VillagersPlugin extends JavaPlugin {
         var pm = super.getServer().getPluginManager();
         pm.registerEvents(new JoinEvent(), this);
         pm.registerEvents(new ChatEvent(), this);
+        pm.registerEvents(new VillagerTransformEvent(), this);
+        pm.registerEvents(new PlayerInteractHandler(), this);
 
         super.getCommand("loc").setExecutor(new Loc());
-        super.getCommand("teste").setExecutor(new SetPriceForEveryone());
+        super.getCommand("reputation").setExecutor(new SetPriceForEveryone());
     }
 
     @Override

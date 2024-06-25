@@ -6,7 +6,9 @@ commands:
   loc:
     description: "This is a loc command"
     usage: "/loc <arg>"
-  teste:
+  reputation:
     description: "This is a command"
-    usage: "/teste <arg>"
-    aliases: [cmd, command]
+    permission: villagers.set.discount
+    usage: "/reputation [set] [radius] [height]"
+    aliases: [vrep]
+    permission-message: "&cYou don't have permissions to use this command!"
